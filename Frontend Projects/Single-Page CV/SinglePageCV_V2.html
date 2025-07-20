@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vivekanandan SK - Technical Lead Resume</title>
+  <meta name="viewport" content="width=210mm, initial-scale=1">
+  <meta name="description" content="Resume of Vivekanandan SK, Technical Lead – Software Development Engineering. Skills, experience, education, and achievements.">
+  <meta name="keywords" content="Vivekanandan SK, Resume, Technical Lead, Software Development, Python, Automation, Chennai">
+  <meta name="author" content="Vivekanandan SK">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Vivekanandan SK - Technical Lead Resume">
+  <meta property="og:description" content="Resume of Vivekanandan SK, Technical Lead – Software Development Engineering. Skills, experience, education, and achievements.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.linkedin.com/in/vivekanandan-sk/">
+  <meta property="og:image" content="https://www.linkedin.com/in/vivekanandan-sk/photo.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <style>
+    @media print {
+      body, html {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 0;
+      }
+      .a4-sheet {
+        box-shadow: none !important;
+        border: none !important;
+      }
+    }
+    body {
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    main.a4-sheet {
+      background: #fff;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 10px auto;
+      padding: 5mm 10mm 5mm 10mm;
+      box-shadow: 0 0 8px #bbb;
+      border-radius: 6px;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 1.2em;
+      padding-bottom: 0.5em;
+    }
+    h1 {
+      font-size: 1.9em;
+      margin-bottom: 0.1em;
+    }
+    h2 {
+      font-size: 1.2em;
+      margin-top: 0;
+      margin-bottom: 0.7em;
+      color: #2a5d84;
+    }
+    h3 {
+      color: #2a5d84;
+      margin-bottom: 0.3em;
+      margin-top: 1.2em;
+      font-size: 1.1em;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 2px;
+    }
+    section {
+      margin-bottom: 0.2em;
+    }
+    ul {
+      margin: 0.2em 0 0.2em 1.2em;
+      padding-left: 0.4em;
+    }
+    .label {
+      font-weight: bold;
+      display: inline-block;
+      min-width: 70px;
+    }
+    address {
+      font-style: normal;
+      margin-bottom: 1em;
+      font-size: 1em;
+    }
+    .exp-title {
+      font-weight: bold;
+      font-size: 1.0em;
+    }
+    .exp-company {
+      font-style: italic;
+      font-size: 0.98em;
+    }
+    .exp-period {
+      color: #555;
+      font-size: 0.95em;
+    }
+    .exp-tech {
+      font-size: 0.95em;
+      color: #444;
+      margin-bottom: 0.5em;
+    }
+    @media screen and (max-width: 900px) {
+      main.a4-sheet {
+        width: 98vw;
+        min-width: unset;
+        padding: 2vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="a4-sheet" itemscope itemtype="https://schema.org/Person">
+    <header>
+      <table style="width:100%; border:none;">
+        <tr>
+          <td style="vertical-align:top; text-align:left;">
+            <h1 itemprop="name" style="margin-bottom:0.2em;"></h1>
+            <h2 itemprop="jobTitle" style="margin-top:0; margin-bottom:0;"></h2>
+          </td>
+          <td style="vertical-align:top; text-align:right;">
+            <address style="margin-bottom:0;">
+              <div><span class="label">Phone:</span> <span itemprop="telephone"></span></div>
+              <div><span class="label">Email:</span> <a href="" itemprop="email"></a></div>
+              <div><a href="https://www.linkedin.com/in/vivekanandan-sk/" target="_blank" rel="noopener" itemprop="sameAs"></a></div>
+            </address>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <section id="skills-section">
+      <h3>Skills</h3>
+      <ul id="skills-list"></ul>
+    </section>
+    <section id="experience-section">
+      <h3>Experience</h3>
+      <div id="experience-list"></div>
+    </section>
+    <section id="certifications-section">
+      <h3>Certifications</h3>
+      <ul id="certifications-list"></ul>
+    </section>
+    <section id="achievements-section">
+      <h3>Achievements</h3>
+      <ul id="achievements-list"></ul>
+    </section>
+    <section id="education-section">
+      <h3>Education</h3>
+      <table id="education-table" style="width:100%; border-collapse:collapse;">
+        <!-- Rows will be inserted by JS -->
+      </table>
+    </section>
+  </main>
+  <script>
+    async function loadResume() {
+      const response = await fetch('resume_content.yaml');
+      const yamlText = await response.text();
+      const data = jsyaml.load(yamlText);
+
+      // Header
+      document.querySelector('h1[itemprop="name"]').textContent = data.name;
+      document.querySelector('h2[itemprop="jobTitle"]').textContent = data.title;
+      document.querySelector('span[itemprop="telephone"]').textContent = data.contact.phone;
+      document.querySelector('a[itemprop="email"]').textContent = data.contact.email;
+      document.querySelector('a[itemprop="email"]').href = `mailto:${data.contact.email}`;
+      // Set LinkedIn as a hyperlink with the link from YAML
+      const linkedinAnchor = document.querySelector('a[itemprop="sameAs"]');
+      linkedinAnchor.textContent = "LinkedIn";
+      linkedinAnchor.href = data.contact.linkedin;
+
+      // Skills
+      const skillsList = document.getElementById('skills-list');
+      skillsList.innerHTML = `
+        <li><b>Programming Languages & Frameworks:</b> ${data.skills.programming_languages_and_frameworks.join(', ')}</li>
+        <li><b>Database Skills:</b> ${data.skills.database_skills.join(', ')}</li>
+        <li><b>Automation Tools:</b> ${data.skills.automation_tools.join(', ')}</li>
+        <li><b>Other Skills:</b> ${data.skills.other_skills.join(', ')}</li>
+      `;
+
+      // Experience
+      const expList = document.getElementById('experience-list');
+      expList.innerHTML = data.experience.map(exp => `
+        <article>
+          <div>
+            <span class="exp-title">${exp.title}</span>
+            <span class="exp-company"> @ ${exp.company} (${exp.location})</span><br>
+            <span class="exp-period">${exp.period}</span>
+          </div>
+          <ul>
+            ${exp.responsibilities.map(r => `<li>${r}</li>`).join('')}
+          </ul>
+          <div class="exp-tech"><b>Tech Stack:</b> ${exp.tech_stack.join(', ')}</div>
+        </article>
+      `).join('');
+
+      // Certifications
+      const certList = document.getElementById('certifications-list');
+      certList.innerHTML = data.certifications.map(c => `<li>${typeof c === 'string' ? c : Object.values(c).join(': ')}</li>`).join('');
+
+      // Achievements
+      const achList = document.getElementById('achievements-list');
+      achList.innerHTML = data.achievements.map(a => `<li>${a}</li>`).join('');
+
+      // Education as table
+      const eduTable = document.getElementById('education-table');
+      eduTable.innerHTML = data.education.map(e => `
+        <tr>
+          <td style="padding:4px 8px; text-align:left;">
+            <b>${e.degree}</b><br>${e.institution}
+          </td>
+          <td style="padding:4px 8px; text-align:right; width:60px; white-space:nowrap;">
+            ${e.year || ''}
+          </td>
+        </tr>
+      `).join('');
+    }
+    loadResume();
+  </script>
+</body>
+</html>
