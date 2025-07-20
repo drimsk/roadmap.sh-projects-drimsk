@@ -1,8 +1,8 @@
 name: Vivekanandan SK
-title: Technical Lead – Software Development Engineering
+title: Technical Lead - Software Development Engineering
 contact:
-  phone: "+91-9994256771"
-  email: tallvivek@gmail.com
+  phone: "+91-9ABCDEFGH1"
+  email: someCatchName@gmail.com
   linkedin: https://www.linkedin.com/in/vivekanandan-sk/
 skills:
   programming_languages_and_frameworks:
@@ -34,10 +34,10 @@ skills:
     - System Design
 
 experience:
-  - title: Technical Lead – Software Development Engineering
+  - title: Technical Lead - Software Development Engineering
     company: Fiserv
     location: Chennai
-    period: Feb 2020 – May 2023
+    period: Feb 2020 - May 2023
     responsibilities:
       - Migrated applications from Oracle 11 to 19, transitioning the entire database infrastructure from on-premises to cloud-based solutions.
       - Developed custom Python loaders for importing client data from new vendors during company acquisitions.
@@ -60,7 +60,7 @@ experience:
   - title: UI Automation Lead
     company: Tata Consultancy Services, Morgan Stanley
     location: Pune / Chennai
-    period: Mar 2011 – Nov 2019
+    period: Mar 2011 - Nov 2019
     responsibilities:
       - Implemented Automation Suites with TestComplete and VB Scripts for UI testing, achieving a 30% reduction in testing time for Web and Windows applications.
       - Developed a Python-based Automation schedule framework for Trading applications, boosting efficiency by 25% and enhancing overall reliability.
@@ -79,13 +79,13 @@ certifications:
   - Udemy Certifications: Python, MS Power Desktop Automate, Power Query, Grounding AI, AZ 900
 
 achievements:
-  - Won the ‘LivingProof’ Award 29 times for achieving various milestones in Development Best Practices, Delivery, Automation, Knowledge Management, and eccentric non-BAU activities from TLT members. @ Fiserv.
-  - Won ‘Technical Excellence’, ‘Star of the Month’, and ‘Star of the Quarter’ Awards multiple times for achieving milestones in various areas including Process Automation, contributing to client initiatives, Lean and Six Sigma concept implementation, and creating insightful dashboards. @ TCS, Morgan Stanley.
+  - Won the 'LivingProof' Award 29 times for achieving various milestones in Development Best Practices, Delivery, Automation, Knowledge Management, and eccentric non-BAU activities from TLT members. @ Fiserv.
+  - Won 'Technical Excellence', 'Star of the Month', and 'Star of the Quarter' Awards multiple times for achieving milestones in various areas including Process Automation, contributing to client initiatives, Lean and Six Sigma concept implementation, and creating insightful dashboards. @ TCS, Morgan Stanley.
 
 education:
   - institution: Manipal University
-    degree: MBA – Total Quality Management
+    degree: MBA - Total Quality Management
     year: 2006
   - institution: KLN College of Engineering
-    degree: BE – Electronics and Communication Engineering
+    degree: BE - Electronics and Communication Engineering
     year: 2010
