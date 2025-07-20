@@ -1,0 +1,45 @@
+# Vivekanandan SK
+**Technical Lead - Software Development Engineering**
+
+- Phone: +91-9ABCDEFGH1
+- Email: [someCatchyName@gmail.com](mailto:someCatchyName@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/vivekanandan-sk/)
+
+## Skills
+- **Programming Languages & Frameworks:** Python, Django, Flask, LangChain(AI), HTML, CSS
+- **Database Skills:** Oracle, MySQL, SQL, PL/SQL, PostgreSQL, MongoDB
+- **Automation Tools:** TOSCA, TestComplete, UFT, Selenium, MS Power Desktop Automate
+- **Other Skills:** Problem Solving, DSA, System Design, SDLC, Automation Testing, System Design
+
+## Experience
+### Technical Lead - Software Development Engineering @ Fiserv (Chennai)
+*Feb 2020 - May 2023*
+- Migrated applications from Oracle 11 to 19, transitioning the entire database infrastructure from on-premises to cloud-based solutions.
+- Developed custom Python loaders for importing client data from new vendors during company acquisitions.
+- Designed and implemented Python-based backend automations for test DB health checks, ensuring weekly stability and performance monitoring. Developed cron jobs using Shell and Python for scheduling backend processes and database activities.
+- Designed and executed functional automation with Python, ensuring seamless integration across multiple applications while maintaining data integrity.
+- Contributed to SDLC best practices, integrating risk assessment and technical debt principles across development, QA, and business domains.
+- Actively improved product quality and code extensibility, enhancing adaptability for new business requirements.
+- Used Git for version control and participated in CI/CD pipeline enhancements.
+- Led QA automation testing for Power Builder desktop applications, ensuring high-quality and timely releases.
+- Developed, executed, and maintained Python-based test automation frameworks, ensuring data integrity and seamless application handshakes.
+**Tech Stack:** Python, Oracle, PL/SQL, Linux, TOSCA, DEX, Grounded AI (LangChain)
+
+### UI Automation Lead @ Tata Consultancy Services, Morgan Stanley (Pune / Chennai)
+*Mar 2011 - Nov 2019*
+- Implemented Automation Suites with TestComplete and VB Scripts for UI testing, achieving a 30% reduction in testing time for Web and Windows applications.
+- Developed a Python-based Automation schedule framework for Trading applications, boosting efficiency by 25% and enhancing overall reliability.
+- Maintained and improved the Automation framework for daily regression testing, cutting manual effort by 40% and increasing reporting accuracy by 20%.
+**Tech Stack:** TestComplete, UFT, VB Script, Python, MS Access DB, HTML, Unix
+
+## Certifications
+- {'TOSCA Certification': 'AS1, AS2, TDS1, TDS2 and AE1'}
+- {'Udemy Certifications': 'Python, MS Power Desktop Automate, Power Query, Grounding AI, AZ 900'}
+
+## Achievements
+- Won the 'LivingProof' Award 29 times for achieving various milestones in Development Best Practices, Delivery, Automation, Knowledge Management, and eccentric non-BAU activities from TLT members. @ Fiserv.
+- Won 'Technical Excellence', 'Star of the Month', and 'Star of the Quarter' Awards multiple times for achieving milestones in various areas including Process Automation, contributing to client initiatives, Lean and Six Sigma concept implementation, and creating insightful dashboards. @ TCS, Morgan Stanley.
+
+## Education
+- **MBA - Total Quality Management**, Manipal University (2006)
+- **BE - Electronics and Communication Engineering**, KLN College of Engineering (2010)
