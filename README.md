@@ -5,7 +5,7 @@ This is my project(s) which i completed as part of Roadmap.sh guides and materia
 ## [Frontend Project(s)](https://roadmap.sh/projects/single-page-cv) :
 
 - [x] [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
-- - [x] [My Single-Page CV](https://github.com/drimsk/roadmap.sh-projects-drimsk)
+- - [x] [My Single-Page CV](https://github.com/drimsk/roadmap.sh-projects-drimsk/blob/main/Frontend%20Projects/Single-Page%20CV/SinglePageCV.html)
 
 ## [Backend Project(s)]
 

@@ -1,4 +1,4 @@
-import yaml
+import yaml 
 
 with open('resume_content.yaml', 'r', encoding='utf-8') as f:
     data = yaml.safe_load(f)
@@ -40,8 +40,9 @@ for a in data['achievements']:
 
 # Education
 lines.append("\n## Education")
+lines.append("\n|||\n|--|--|")
 for e in data['education']:
-    lines.append(f"- **{e['degree']}**, {e['institution']} ({e.get('year', '')})")
+    lines.append(f"|**{e['degree']}**, {e['institution']} |({e.get('year', '')})|")
 
 with open('SinglePageCV_V3.md', 'w', encoding='utf-8') as f:
     f.write('\n'.join(lines))

@@ -1,0 +1,12 @@
+# Ignore PlayGround directory
+PlayGround/
+
+# Ignore resume content YAML file
+Frontend Projects/Single-Page CV/resume_content.yaml
+Frontend Projects/Single-Page CV/SinglePageCV_V3.md
+
+# Ignore Python cache directories
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*.py[cod]
